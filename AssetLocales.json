@@ -1,5 +1,5 @@
 {
-    "$id": "https://github.com/RajatB23/JSON_Schemas/new/master/AssetLocales.json",
+    "$id": "https://github.com/RajatB23/JSON_Schemas/blob/master/AssetLocales.json",
     "$schema": "http://json-schema.org/draft-06/schema#",
     "$ref": "#/definitions/AssetLocales",
     "definitions": {
@@ -15,7 +15,7 @@
                     "description": "an array of locales",
                     "type": "array",
                     "items": {
-                        "$ref": "https://github.com/RajatB23/JSON_Schemas/new/master/Locale.json"
+                        "$ref": "https://github.com/RajatB23/JSON_Schemas/blob/master/Locale.json"
                     }
                 }
             },
