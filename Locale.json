@@ -1,0 +1,7 @@
+{
+    "$id": "https://github.com/RajatB23/JSON_Schemas/blob/master/Locale.json",
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "title": "Locale",
+    "description": "A locale string like en_us or de_de",
+    "type": "string"
+}
