@@ -1,0 +1,29 @@
+{
+    "$id": "https://github.com/RajatB23/JSON_Schemas/new/master/AssetLocales.json",
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/AssetLocales",
+    "definitions": {
+        "AssetLocales": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "description": "id of this asset in project/task service",
+                    "type": "string"
+                },
+                "locales": {
+                    "description": "an array of locales",
+                    "type": "array",
+                    "items": {
+                        "$ref": "https://github.com/RajatB23/JSON_Schemas/new/master/Locale.json"
+                    }
+                }
+            },
+            "required": [
+                "name",
+                "locales"
+            ],
+            "title": "AssetLocales"
+        }
+    }
+}
