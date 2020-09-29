@@ -1,5 +1,5 @@
 {
-  "$id": "https://git.corp.adobe.com/pages/gcs/gcs-schemas/published/coronet/locale.schema.json",
+  "$id": "https://github.com/RajatB23/JSON_Schemas/blob/master/locale.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Locale",
   "type": "string",
