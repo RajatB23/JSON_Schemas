@@ -1,0 +1,25 @@
+{
+  "$id": "https://git.corp.adobe.com/pages/gcs/gcs-schemas/published/coronet/localeMapEntry.schema.json",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "description": "Locale mapping between two locales",
+  "examples": [
+    {
+      "from": "fr-FR",
+      "to": "fr-CA"
+    }
+  ],
+  "required": ["from", "to"],
+  "title": "Locale map entry",
+  "properties": {
+    "from": {
+      "description": "From locale in mapping",
+      "$ref": "locale.schema.json"
+    },
+    "to": {
+      "description": "To locale in mapping",
+      "$ref": "locale.schema.json"
+    }
+  },
+  "additionalProperties": false
+}
